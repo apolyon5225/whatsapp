@@ -165,7 +165,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
       // Alt gezinti çubuğu
       bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: whatsappAcikYesil,
+        selectedItemColor: const Color(0xFF128C7E),
         unselectedItemColor: Colors.grey,
       
         onTap: (index) {
@@ -190,12 +190,12 @@ class _HomeScreenState extends State<HomeScreen> {
   // sohbetler listesi
   Widget _sohbetlerListesi(BuildContext context) {
     final List<Map<String, String>> sohbetler = [
-      {'isim': 'Balık Efe', 'mesaj': 'Kanka suyumu versene', 'saat': '22:34', 'harf': 'B'},
+      {'isim': 'Efe Akarsu', 'mesaj': 'Kanka Orduya ne zaman gidiyoruz', 'saat': '22:34', 'harf': 'B'},
       {'isim': 'Mami', 'mesaj': 'Kanka akşam dışarı çıkalım', 'saat': '18:12', 'harf': 'M'},
       {'isim': 'Musa', 'mesaj': 'Ödevimiz varmı kanka ', 'saat': '15:45', 'harf': 'M'},
       {'isim': 'Enes', 'mesaj': 'Yarın maç var kanka', 'saat': '12:30', 'harf': 'E'},
       {'isim': 'Buğra', 'mesaj': 'Yarın ders saat kaçta', 'saat': 'Dün', 'harf': 'B'},
-      {'isim': 'KINİ Kadir', 'mesaj': 'Yarın tribünde pankart asılacak erken gel.', 'saat': 'Dün', 'harf': 'A'},
+      {'isim': 'Kadir', 'mesaj': 'Yarın tribünde pankart asılacak erken gel.', 'saat': 'Dün', 'harf': 'K'},
     ];
 
     return ListView.builder(
@@ -240,7 +240,7 @@ class _HomeScreenState extends State<HomeScreen> {
   // ARAMALAR LİSTESİ
   Widget _aramalarListesi() {
     final List<Map<String, dynamic>> aramalar = [
-      {'isim': 'Balık efe ', 'zaman': 'Bugün, 14:22', 'gelen': true, 'kabul': true},
+      {'isim': 'Efe AKARSU', 'zaman': 'Bugün, 14:22', 'gelen': true, 'kabul': true},
       {'isim': 'Mami', 'zaman': 'Dün, 19:40', 'gelen': false, 'kabul': true},
       {'isim': 'Dodo', 'zaman': '3 Haziran, 11:15', 'gelen': true, 'kabul': false},
       {'isim': 'Annem', 'zaman': '1 Haziran, 09:30', 'gelen': true, 'kabul': true},
