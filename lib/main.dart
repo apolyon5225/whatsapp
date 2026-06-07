@@ -284,3 +284,4 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+//Bu uygulama mobil proglamlama dersi kapsamında geliştirilmiştir.
