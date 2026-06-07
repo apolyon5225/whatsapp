@@ -190,7 +190,7 @@ class _HomeScreenState extends State<HomeScreen> {
   // sohbetler listesi
   Widget _sohbetlerListesi(BuildContext context) {
     final List<Map<String, String>> sohbetler = [
-      {'isim': 'Efe Akarsu', 'mesaj': 'Kanka Orduya ne zaman gidiyoruz', 'saat': '22:34', 'harf': 'B'},
+      {'isim': 'Efe akarsu', 'mesaj': 'Kanka Orduya ne zaman gidiyoruz', 'saat': '22:34', 'harf': 'B'},
       {'isim': 'Mami', 'mesaj': 'Kanka akşam dışarı çıkalım', 'saat': '18:12', 'harf': 'M'},
       {'isim': 'Musa', 'mesaj': 'Ödevimiz varmı kanka ', 'saat': '15:45', 'harf': 'M'},
       {'isim': 'Enes', 'mesaj': 'Yarın maç var kanka', 'saat': '12:30', 'harf': 'E'},
@@ -245,6 +245,7 @@ class _HomeScreenState extends State<HomeScreen> {
       {'isim': 'Dodo', 'zaman': '3 Haziran, 11:15', 'gelen': true, 'kabul': false},
       {'isim': 'Annem', 'zaman': '1 Haziran, 09:30', 'gelen': true, 'kabul': true},
     ];
+
 
     return ListView.builder(
       itemCount: aramalar.length,

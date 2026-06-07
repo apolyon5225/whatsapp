@@ -69,6 +69,7 @@ class _ChatDetailScreenState extends State<ChatDetailScreen> {
           ),
         ],
       ),
+      
 
       // Column ile mesaj alanını ve alttaki yazma alanını dikeyde hizalıyo
       body: Column(
